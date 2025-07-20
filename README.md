@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# 🧠 Text Insight
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Text Insight** is a web-based application that provides **AI-powered text summarization** and **keyword extraction**. Built using **React.js** (frontend) and **FastAPI** (backend), it leverages state-of-the-art NLP models like **BART**, **T5**, and **KeyBERT** to help users quickly understand and extract insights from large text documents.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- ✂️ **Summarization**  
+  Generate short, medium, or long summaries of any input text using pretrained Transformer models (T5 / BART).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎯 **Tone & Focus Control**  
+  Customize the output tone (neutral, formal, informal) and focus (general, technical, creative) for better context-awareness.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🔍 **Keyword Extraction**  
+  Identify key terms and phrases from the text using KeyBERT for quick insight.
 
-### `npm test`
+- 🌐 **User-Friendly Interface**  
+  Built with React.js for a responsive and smooth user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Layer         | Technology              |
+|---------------|--------------------------|
+| Frontend      | React.js, CSS            |
+| Backend       | FastAPI, Pydantic        |
+| NLP Models    | BART (facebook/bart-large-cnn), T5 (google/flan-t5-large), KeyBERT |
+| Middleware    | CORS Middleware          |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Demo
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧪 Setup Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone the Repository
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/Sakshig1212/Text-Insight.git
+cd Text-Insight
