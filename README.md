@@ -25,7 +25,7 @@
 | Layer         | Technology              |
 |---------------|--------------------------|
 | Frontend      | React.js, CSS            |
-| Backend       | FastAPI, Pydantic        |
+| Backend       | FastAPI        |
 | NLP Models    | BART (facebook/bart-large-cnn), T5 (google/flan-t5-large), KeyBERT |
 | Middleware    | CORS Middleware          |
 
